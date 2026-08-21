@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: d030b06ea325b2341ad30948d0e8bf9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5344953698765303890
+    second: locust_boss_0
+  - first:
+      213: 7517264767143276047
+    second: locust_boss_1
+  - first:
+      213: 7883210973958035090
+    second: locust_boss_2
+  - first:
+      213: -1435711100650230027
+    second: locust_boss_3
+  - first:
+      213: 78353189144634020
+    second: locust_boss_4
+  - first:
+      213: -8228752335460964280
+    second: locust_boss_5
+  - first:
+      213: -8839489223382764624
+    second: locust_boss_6
+  - first:
+      213: -7034837047984189762
+    second: locust_boss_7
+  - first:
+      213: -4892407815903680003
+    second: locust_boss_8
+  - first:
+      213: 8007473240090350775
+    second: locust_boss_9
+  - first:
+      213: 7798130889355698248
+    second: locust_boss_10
+  - first:
+      213: -7552510199708825277
+    second: locust_boss_11
+  - first:
+      213: 3525277923876092087
+    second: locust_boss_12
+  - first:
+      213: 6454342481802740603
+    second: locust_boss_13
+  - first:
+      213: -5594922742927601690
+    second: locust_boss_14
+  - first:
+      213: 3482201265234401888
+    second: locust_boss_15
+  - first:
+      213: -8044382790613490300
+    second: locust_boss_16
+  - first:
+      213: 5497743168627748141
+    second: locust_boss_17
+  - first:
+      213: 1174109584074474697
+    second: locust_boss_18
+  - first:
+      213: 3066019330404881408
+    second: locust_boss_19
+  - first:
+      213: 5538743834279351626
+    second: locust_boss_20
+  - first:
+      213: 7368942268687198382
+    second: locust_boss_21
+  - first:
+      213: -1777090612644126492
+    second: locust_boss_22
+  - first:
+      213: 3344453190025495282
+    second: locust_boss_23
+  - first:
+      213: -1008058161272402592
+    second: locust_boss_24
+  - first:
+      213: 7260902222473115890
+    second: locust_boss_25
+  - first:
+      213: -3368914910458014354
+    second: locust_boss_26
+  - first:
+      213: -3422574298896825010
+    second: locust_boss_27
+  - first:
+      213: -4488610137554316791
+    second: locust_boss_28
+  - first:
+      213: 2457918401086165778
+    second: locust_boss_29
+  - first:
+      213: 8968261426387875843
+    second: locust_boss_30
+  - first:
+      213: 4906154654345200478
+    second: locust_boss_31
+  - first:
+      213: 5906261149720548810
+    second: locust_boss_32
+  - first:
+      213: -8619422781616709746
+    second: locust_boss_33
+  - first:
+      213: -3294201459487101672
+    second: locust_boss_34
+  - first:
+      213: -5485195011342439538
+    second: locust_boss_35
+  - first:
+      213: -2017432741162833150
+    second: locust_boss_36
+  - first:
+      213: -4057179642034971601
+    second: locust_boss_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: locust_boss_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1814
+        width: 358
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250f0dbf1171d2a40800000000000000
+      internalID: 5344953698765303890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1813
+        width: 358
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e62204a70b25860800000000000000
+      internalID: 7517264767143276047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1813
+        width: 355
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296da302d9ac66d60800000000000000
+      internalID: 7883210973958035090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_3
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1812
+        width: 354
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe68a55c54531ce0800000000000000
+      internalID: -1435711100650230027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_4
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1811
+        width: 353
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a22cf57fcd561100800000000000000
+      internalID: 78353189144634020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_5
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 1810
+        width: 351
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848ee2449599dcd80800000000000000
+      internalID: -8228752335460964280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_6
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1811
+        width: 349
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3706c8263d35580800000000000000
+      internalID: -8839489223382764624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1450
+        width: 347
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe052e1afc3f5e90800000000000000
+      internalID: -7034837047984189762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1449
+        width: 345
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df967b4330daa1cb0800000000000000
+      internalID: -4892407815903680003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_9
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1448
+        width: 344
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b418088c72402f60800000000000000
+      internalID: 8007473240090350775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_10
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1448
+        width: 342
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8402c044ab6883c60800000000000000
+      internalID: 7798130889355698248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_11
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1448
+        width: 340
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34947dffcf7103790800000000000000
+      internalID: -7552510199708825277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_12
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1448
+        width: 338
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b83923189d4ce030800000000000000
+      internalID: 3525277923876092087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_13
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1448
+        width: 338
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73c0966a4e629950800000000000000
+      internalID: 6454342481802740603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1088
+        width: 335
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efcb029867da52b0800000000000000
+      internalID: -5594922742927601690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_15
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1088
+        width: 333
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a56bae993435030800000000000000
+      internalID: 3482201265234401888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_16
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1089
+        width: 332
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485a730197c9c5090800000000000000
+      internalID: -8044382790613490300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_17
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1088
+        width: 331
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d23689848eb4c40800000000000000
+      internalID: 5497743168627748141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_18
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1088
+        width: 328
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4042e22764b4010800000000000000
+      internalID: 1174109584074474697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_19
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1088
+        width: 327
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00493472650bc8a20800000000000000
+      internalID: 3066019330404881408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_20
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1089
+        width: 325
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a451b18fb229ddc40800000000000000
+      internalID: 5538743834279351626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 729
+        width: 325
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8267773fdb34660800000000000000
+      internalID: 7368942268687198382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_22
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 728
+        width: 326
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e06aa3d0818657e0800000000000000
+      internalID: -1777090612644126492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_23
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 730
+        width: 327
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f24467e472e96e20800000000000000
+      internalID: 3344453190025495282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_24
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 730
+        width: 329
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dcc687178a202f0800000000000000
+      internalID: -1008058161272402592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_25
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 731
+        width: 331
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8ba57f918e3c460800000000000000
+      internalID: 7260902222473115890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_26
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 730
+        width: 333
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6512abfcb53f31d0800000000000000
+      internalID: -3368914910458014354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_27
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 731
+        width: 335
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e458fd80fc29080d0800000000000000
+      internalID: -3422574298896825010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 371
+        width: 337
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9029bdf8cd045b1c0800000000000000
+      internalID: -4488610137554316791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_29
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 371
+        width: 340
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21313af53c74c1220800000000000000
+      internalID: 2457918401086165778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_30
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 371
+        width: 343
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308ffac504aa57c70800000000000000
+      internalID: 8968261426387875843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_31
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 371
+        width: 345
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5300690aa9261440800000000000000
+      internalID: 4906154654345200478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_32
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 372
+        width: 346
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac598c3193147f150800000000000000
+      internalID: 5906261149720548810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_33
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 372
+        width: 348
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f93d4d5a8a16880800000000000000
+      internalID: -8619422781616709746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_34
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 372
+        width: 351
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81da2bcd935a842d0800000000000000
+      internalID: -3294201459487101672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 13
+        width: 352
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b6031f23ca0e3b0800000000000000
+      internalID: -5485195011342439538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_36
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 13
+        width: 355
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b2fb85c93a004e0800000000000000
+      internalID: -2017432741162833150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locust_boss_37
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 14
+        width: 358
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c1f868c9002b7c0800000000000000
+      internalID: -4057179642034971601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      locust_boss_0: 5344953698765303890
+      locust_boss_1: 7517264767143276047
+      locust_boss_10: 7798130889355698248
+      locust_boss_11: -7552510199708825277
+      locust_boss_12: 3525277923876092087
+      locust_boss_13: 6454342481802740603
+      locust_boss_14: -5594922742927601690
+      locust_boss_15: 3482201265234401888
+      locust_boss_16: -8044382790613490300
+      locust_boss_17: 5497743168627748141
+      locust_boss_18: 1174109584074474697
+      locust_boss_19: 3066019330404881408
+      locust_boss_2: 7883210973958035090
+      locust_boss_20: 5538743834279351626
+      locust_boss_21: 7368942268687198382
+      locust_boss_22: -1777090612644126492
+      locust_boss_23: 3344453190025495282
+      locust_boss_24: -1008058161272402592
+      locust_boss_25: 7260902222473115890
+      locust_boss_26: -3368914910458014354
+      locust_boss_27: -3422574298896825010
+      locust_boss_28: -4488610137554316791
+      locust_boss_29: 2457918401086165778
+      locust_boss_3: -1435711100650230027
+      locust_boss_30: 8968261426387875843
+      locust_boss_31: 4906154654345200478
+      locust_boss_32: 5906261149720548810
+      locust_boss_33: -8619422781616709746
+      locust_boss_34: -3294201459487101672
+      locust_boss_35: -5485195011342439538
+      locust_boss_36: -2017432741162833150
+      locust_boss_37: -4057179642034971601
+      locust_boss_4: 78353189144634020
+      locust_boss_5: -8228752335460964280
+      locust_boss_6: -8839489223382764624
+      locust_boss_7: -7034837047984189762
+      locust_boss_8: -4892407815903680003
+      locust_boss_9: 8007473240090350775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

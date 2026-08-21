@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: 116104ec828385c4bb60bc0be3971a0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5830568167431452653
+    second: squid_boss_0
+  - first:
+      213: 8960222617032200163
+    second: squid_boss_1
+  - first:
+      213: -6120870895516289015
+    second: squid_boss_2
+  - first:
+      213: -8779672794911165884
+    second: squid_boss_3
+  - first:
+      213: 134828753410602575
+    second: squid_boss_4
+  - first:
+      213: 7034012088618796128
+    second: squid_boss_5
+  - first:
+      213: -8114844899142615340
+    second: squid_boss_6
+  - first:
+      213: 5762669106620336354
+    second: squid_boss_7
+  - first:
+      213: 7168274514400987389
+    second: squid_boss_8
+  - first:
+      213: -4837503684463217670
+    second: squid_boss_9
+  - first:
+      213: 348569807626035247
+    second: squid_boss_10
+  - first:
+      213: -7158797730602759482
+    second: squid_boss_11
+  - first:
+      213: 8758671498490714946
+    second: squid_boss_12
+  - first:
+      213: -6788455294487935868
+    second: squid_boss_13
+  - first:
+      213: 4356168038914473708
+    second: squid_boss_14
+  - first:
+      213: 7159163027872575864
+    second: squid_boss_15
+  - first:
+      213: -410278434556713778
+    second: squid_boss_16
+  - first:
+      213: 1560746387080903630
+    second: squid_boss_17
+  - first:
+      213: -73230400975384202
+    second: squid_boss_18
+  - first:
+      213: 468051564664185544
+    second: squid_boss_19
+  - first:
+      213: 8391407640626211137
+    second: squid_boss_20
+  - first:
+      213: 8454893675033914949
+    second: squid_boss_21
+  - first:
+      213: -9071820923417953364
+    second: squid_boss_22
+  - first:
+      213: 8156799537428557480
+    second: squid_boss_23
+  - first:
+      213: 4973700610322740284
+    second: squid_boss_24
+  - first:
+      213: -4703978657050735541
+    second: squid_boss_25
+  - first:
+      213: -4094834645799479554
+    second: squid_boss_26
+  - first:
+      213: 7221675623475021450
+    second: squid_boss_27
+  - first:
+      213: 952739450608148929
+    second: squid_boss_28
+  - first:
+      213: 3217951540832368789
+    second: squid_boss_29
+  - first:
+      213: -2014845730812010435
+    second: squid_boss_30
+  - first:
+      213: -66967756287829837
+    second: squid_boss_31
+  - first:
+      213: 2956739727037796618
+    second: squid_boss_32
+  - first:
+      213: 1860618454100527949
+    second: squid_boss_33
+  - first:
+      213: -7153326394552972343
+    second: squid_boss_34
+  - first:
+      213: 3759700645530247094
+    second: squid_boss_35
+  - first:
+      213: 3555317933910304117
+    second: squid_boss_36
+  - first:
+      213: -675256545426003331
+    second: squid_boss_37
+  - first:
+      213: 3064407040324435791
+    second: squid_boss_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: squid_boss_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2571
+        width: 507
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3184c85b429a51fa0800000000000000
+      internalID: -5830568167431452653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2573
+        width: 506
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef00a43ffa195c70800000000000000
+      internalID: 8960222617032200163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_2
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 2574
+        width: 503
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90879bca95c4e0ba0800000000000000
+      internalID: -6120870895516289015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_3
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2577
+        width: 502
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442b8271c16582680800000000000000
+      internalID: -8779672794911165884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_4
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 2578
+        width: 501
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f463c8079020fd100800000000000000
+      internalID: 134828753410602575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_5
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 2577
+        width: 500
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0644def0ab4dd9160800000000000000
+      internalID: 7034012088618796128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_6
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 2578
+        width: 498
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4deb63bfe87426f80800000000000000
+      internalID: -8114844899142615340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2067
+        width: 497
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e80932450d19ff40800000000000000
+      internalID: 5762669106620336354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2068
+        width: 495
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df84b5311b3da7360800000000000000
+      internalID: 7168274514400987389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_9
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2068
+        width: 493
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af33de7770cbddcb0800000000000000
+      internalID: -4837503684463217670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_10
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2067
+        width: 490
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20e9faa46e56d400800000000000000
+      internalID: 348569807626035247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_11
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 2067
+        width: 489
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cacc889467d6ac90800000000000000
+      internalID: -7158797730602759482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_12
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 2068
+        width: 486
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b90eb825d0d8970800000000000000
+      internalID: 8758671498490714946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_13
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2068
+        width: 485
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4844d6e50ef8ac1a0800000000000000
+      internalID: -6788455294487935868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1558
+        width: 483
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee386d50c7347c30800000000000000
+      internalID: 4356168038914473708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_15
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1557
+        width: 481
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871747dc7d47a5360800000000000000
+      internalID: 7159163027872575864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_16
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1559
+        width: 480
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec46e3100f56e4af0800000000000000
+      internalID: -410278434556713778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_17
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1559
+        width: 480
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb7e62e192e8a510800000000000000
+      internalID: 1560746387080903630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_18
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 1561
+        width: 478
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6715a1b9655dbfef0800000000000000
+      internalID: -73230400975384202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_19
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1561
+        width: 479
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2ef501b6ade7600800000000000000
+      internalID: 468051564664185544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_20
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1563
+        width: 478
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14926012ac4447470800000000000000
+      internalID: 8391407640626211137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1054
+        width: 478
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ee7126001d55570800000000000000
+      internalID: 8454893675033914949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_22
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1055
+        width: 479
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab77b94fea6a1280800000000000000
+      internalID: -9071820923417953364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_23
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1056
+        width: 480
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aeef7476f5c23170800000000000000
+      internalID: 8156799537428557480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_24
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1058
+        width: 482
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c343e617a52260540800000000000000
+      internalID: 4973700610322740284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_25
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 1059
+        width: 482
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cc87b855c18beb0800000000000000
+      internalID: -4703978657050735541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_26
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1058
+        width: 483
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6d823c5993c27c0800000000000000
+      internalID: -4094834645799479554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_27
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 1057
+        width: 484
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86835ca7bb883460800000000000000
+      internalID: 7221675623475021450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 546
+        width: 486
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1eff48b7fc83d00800000000000000
+      internalID: 952739450608148929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_29
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 544
+        width: 487
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598fbbf70e578ac20800000000000000
+      internalID: 3217951540832368789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_30
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 544
+        width: 489
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30ecb1ab74d904e0800000000000000
+      internalID: -2014845730812010435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_31
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 543
+        width: 491
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b81f033e25121ff0800000000000000
+      internalID: -66967756287829837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_32
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 542
+        width: 493
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a019f53cd13780920800000000000000
+      internalID: 2956739727037796618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_33
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 541
+        width: 495
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bc23340ae32d910800000000000000
+      internalID: 1860618454100527949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_34
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 539
+        width: 498
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb8e3a4b874abc90800000000000000
+      internalID: -7153326394552972343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 27
+        width: 500
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf13ae31d32d2430800000000000000
+      internalID: 3759700645530247094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_36
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 25
+        width: 503
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575ac42f2d6075130800000000000000
+      internalID: 3555317933910304117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_37
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 22
+        width: 506
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a20a5efb101a6f0800000000000000
+      internalID: -675256545426003331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squid_boss_38
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 21
+        width: 508
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f7ebd97f5f68a20800000000000000
+      internalID: 3064407040324435791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      squid_boss_0: -5830568167431452653
+      squid_boss_1: 8960222617032200163
+      squid_boss_10: 348569807626035247
+      squid_boss_11: -7158797730602759482
+      squid_boss_12: 8758671498490714946
+      squid_boss_13: -6788455294487935868
+      squid_boss_14: 4356168038914473708
+      squid_boss_15: 7159163027872575864
+      squid_boss_16: -410278434556713778
+      squid_boss_17: 1560746387080903630
+      squid_boss_18: -73230400975384202
+      squid_boss_19: 468051564664185544
+      squid_boss_2: -6120870895516289015
+      squid_boss_20: 8391407640626211137
+      squid_boss_21: 8454893675033914949
+      squid_boss_22: -9071820923417953364
+      squid_boss_23: 8156799537428557480
+      squid_boss_24: 4973700610322740284
+      squid_boss_25: -4703978657050735541
+      squid_boss_26: -4094834645799479554
+      squid_boss_27: 7221675623475021450
+      squid_boss_28: 952739450608148929
+      squid_boss_29: 3217951540832368789
+      squid_boss_3: -8779672794911165884
+      squid_boss_30: -2014845730812010435
+      squid_boss_31: -66967756287829837
+      squid_boss_32: 2956739727037796618
+      squid_boss_33: 1860618454100527949
+      squid_boss_34: -7153326394552972343
+      squid_boss_35: 3759700645530247094
+      squid_boss_36: 3555317933910304117
+      squid_boss_37: -675256545426003331
+      squid_boss_38: 3064407040324435791
+      squid_boss_4: 134828753410602575
+      squid_boss_5: 7034012088618796128
+      squid_boss_6: -8114844899142615340
+      squid_boss_7: 5762669106620336354
+      squid_boss_8: 7168274514400987389
+      squid_boss_9: -4837503684463217670
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
