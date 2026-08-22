@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2b96c5f07f3ab648a8579d88f1c493e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileController
-  timeLive: 12
+  timeLive: 8
   rb2D: {fileID: 4739137840299658824}
 --- !u!114 &241172495162937269
 MonoBehaviour:
