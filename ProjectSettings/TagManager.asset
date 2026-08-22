@@ -41,8 +41,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer 1
+  - name: 'Path '
     uniqueID: 3514068173
+    locked: 0
+  - name: Projectile
+    uniqueID: 197793991
     locked: 0
   m_RenderingLayers:
   - Default
