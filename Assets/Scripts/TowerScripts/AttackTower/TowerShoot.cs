@@ -27,7 +27,7 @@ public class TowerShoot : MonoBehaviour
         projectileObject.transform.position = firePos.position;
         ProjectileController projectile = projectileObject.GetComponent<ProjectileController>();
         projectile.PrepareBeforeShoot(towerData.projectileSpeed, towerData.projectileDamage, projectilePool);
-        projectile.Shoot(GetDirection(target));
+        projectile.projectileShoot.Shoot(GetDirection(target));
     }
 
     private Vector2 GetDirection(Transform target) 
