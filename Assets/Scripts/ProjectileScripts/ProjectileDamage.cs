@@ -1,16 +1,22 @@
+using System;
 using UnityEngine;
 
 public class ProjectileDamage : MonoBehaviour
 {
-    [SerializeField] private ProjectileController projectileController;
+    public static Action OnProjectileHit;
+    private int damage;
+
+    public void SetDamage(int damage) 
+    {
+        this.damage = damage;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy")) 
         {
-            float damage = projectileController.GetDamage();
+            OnProjectileHit?.Invoke();
             Debug.Log(damage);
-            projectileController.ReturnToPool();
         }
     }
 }
