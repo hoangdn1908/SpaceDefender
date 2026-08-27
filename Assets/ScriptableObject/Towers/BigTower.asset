@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TowerData
   projectileSpeed: 25
   projectileDamage: 20
+  scaleX: 2
+  scaleY: 2
   timeRate: 0.5
   detectRange: 5

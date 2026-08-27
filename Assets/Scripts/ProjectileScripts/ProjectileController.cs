@@ -6,6 +6,7 @@ public class ProjectileController : MonoBehaviour
     public ProjectileLive projectileLive {  get; private set; }
     public ProjectileDamage projectileDamage { get; private set; }
     public ProjectileShoot projectileShoot { get; private set; }
+    public ProjectileSize projectileSize { get; private set; }
 
     private void Awake()
     {
@@ -34,6 +35,11 @@ public class ProjectileController : MonoBehaviour
         projectileLive.SetObjectPool(objectPool);
     }
 
+    public void SetSacle(Vector3 scale) 
+    {
+        projectileSize.SetScale(scale);
+    }
+
     public void PrepareBeforeShoot(float speed, int damage, ObjectPool objectPool)
     {
         InitializeComponent();
@@ -49,11 +55,17 @@ public class ProjectileController : MonoBehaviour
         projectileLive = GetComponent<ProjectileLive>();
         projectileDamage = GetComponent<ProjectileDamage>();
         projectileShoot = GetComponent<ProjectileShoot>();
+        projectileSize = GetComponent<ProjectileSize>();
     }
 
     private void SetRigidbody2D() 
     {
         projectileLive.SetRB2D(this.rb2D);
         projectileShoot.SetRB2D(this.rb2D);
+    }
+
+    public void Shoot(Vector2 direction) 
+    {
+        projectileShoot.Shoot(direction);
     }
 }

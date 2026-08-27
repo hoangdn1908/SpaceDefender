@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 241172495162937269}
   - component: {fileID: -7641136207130513062}
   - component: {fileID: 4623830169916884529}
+  - component: {fileID: 2291075323569342416}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -210,3 +211,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a38b5fa02e0a4b44fb543c1383a46e8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileShoot
+--- !u!114 &2291075323569342416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2857999208367279341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d2d2953b9fff440b87bc1a1634ed31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileSize
+  projectileSize: {fileID: 243702922188708666}
