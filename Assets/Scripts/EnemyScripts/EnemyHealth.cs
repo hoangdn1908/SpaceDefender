@@ -1,13 +1,13 @@
+using System.ComponentModel;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 100;
     private int currentHealth;
 
-    private void Awake()
+    public void SetHealth(int health) 
     {
-        currentHealth = maxHealth;
+        this.currentHealth = health;
     }
 
     public void TakeDamage(int damage) 

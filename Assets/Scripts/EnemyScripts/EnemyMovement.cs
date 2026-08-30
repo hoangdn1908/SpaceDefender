@@ -3,13 +3,23 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] private WaypointPath path;
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private float rotationSpeed = 360f;
+    private float speed;
+    private float rotationSpeed;
     private int currentWaypointIndex;
 
     private void Update()
     {
         MoveToWaypoint();
+    }
+
+    public void SetSpeed(float speed) 
+    {
+        this.speed = speed;
+    }
+
+    public void SetRotationSpeed(float rotationSpeed) 
+    {
+        this.rotationSpeed = rotationSpeed;
     }
 
     private void MoveToWaypoint() 
