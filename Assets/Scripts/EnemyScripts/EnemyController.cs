@@ -1,11 +1,12 @@
 using UnityEngine;
 
-[RequireComponent(typeof(EnemyHealth), typeof(EnemyMovement))] 
+[RequireComponent(typeof(EnemyHealth), typeof(EnemyMovement), typeof(EnemyVisual))] 
 public class EnemyController : MonoBehaviour
 {
     public EnemyData EnemyData;
     private EnemyHealth enemyHealth;
     private EnemyMovement enemyMovement;
+    private EnemyVisual enemyVisual;
 
     private void Awake()
     {
@@ -17,6 +18,7 @@ public class EnemyController : MonoBehaviour
     {
         enemyHealth = GetComponent<EnemyHealth>();
         enemyMovement = GetComponent<EnemyMovement>();
+        enemyVisual = GetComponent<EnemyVisual>();
     }
 
     public void SetValues() 
@@ -24,5 +26,7 @@ public class EnemyController : MonoBehaviour
         enemyHealth.SetHealth(EnemyData.maxHealth);
         enemyMovement.SetSpeed(EnemyData.speed);
         enemyMovement.SetRotationSpeed(EnemyData.rotationSpeed);
+        enemyVisual.SetColliderRadius(EnemyData.colliderRadius);
+        enemyVisual.SetSprite(EnemyData.sprites);
     }
 }

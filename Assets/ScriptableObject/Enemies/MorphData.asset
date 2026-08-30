@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b28ea7970b5a24eaab44109a78aac9, type: 3}
+  m_Name: MorphData
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  speed: 3
+  rotationSpeed: 720
+  maxHealth: 100
+  collierRaius: 0.45
+  sprites:
+  - {fileID: -2699892945518073049, guid: 4bc1d98c5dc86cf41844a8ed3fe6b8a8, type: 3}
+  - {fileID: -5926678571969389033, guid: 4bc1d98c5dc86cf41844a8ed3fe6b8a8, type: 3}
+  - {fileID: -7050466873323641443, guid: 4bc1d98c5dc86cf41844a8ed3fe6b8a8, type: 3}
+  - {fileID: 118224587, guid: 4bc1d98c5dc86cf41844a8ed3fe6b8a8, type: 3}
+  - {fileID: 1003771818, guid: 4bc1d98c5dc86cf41844a8ed3fe6b8a8, type: 3}

@@ -1285,11 +1285,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1899974691}
   - component: {fileID: 1899974690}
+  - component: {fileID: 1899974693}
+  - component: {fileID: 1899974694}
   - component: {fileID: 1899974692}
   - component: {fileID: 1899974695}
   - component: {fileID: 1899974696}
-  - component: {fileID: 1899974693}
-  - component: {fileID: 1899974694}
+  - component: {fileID: 1899974697}
   m_Layer: 0
   m_Name: Enemy_Critter
   m_TagString: Enemy
@@ -1365,7 +1366,7 @@ Transform:
   m_GameObject: {fileID: 1899974689}
   serializedVersion: 2
   m_LocalRotation: {x: 0.008726558, y: 0, z: 0, w: 0.999962}
-  m_LocalPosition: {x: -10.68, y: 2.99, z: -0.01}
+  m_LocalPosition: {x: -12.42, y: 2.95, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1414,7 +1415,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1471,7 +1472,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ff288eadbdcb440bd023b6cb74d53e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
-  EnemyData: {fileID: 11400000, guid: a0a79b798d181594ea8189b482f0ee46, type: 2}
+  EnemyData: {fileID: 11400000, guid: d18ae4fe4e0fd47429c4d1f5b5c66d49, type: 2}
+--- !u!114 &1899974697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899974689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71b5cf5484cbc5e47a6db7a8f8398d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyVisual
+  spriteRenderer: {fileID: 1899974690}
+  circleCollider: {fileID: 1899974693}
 --- !u!1001 &2027164026
 PrefabInstance:
   m_ObjectHideFlags: 0
