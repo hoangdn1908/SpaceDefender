@@ -15,8 +15,10 @@ public class ProjectileDamage : MonoBehaviour
     {
         if (collision.CompareTag("Enemy")) 
         {
+            EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
+            if (enemyHealth == null) return;
+            enemyHealth.TakeDamage(damage);
             OnProjectileHit?.Invoke();
-            Debug.Log(damage);
         }
     }
 }

@@ -1229,6 +1229,7 @@ GameObject:
   - component: {fileID: 1899974691}
   - component: {fileID: 1899974690}
   - component: {fileID: 1899974692}
+  - component: {fileID: 1899974695}
   - component: {fileID: 1899974693}
   - component: {fileID: 1899974694}
   m_Layer: 0
@@ -1390,6 +1391,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1899974695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899974689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6357ad75b6b520f499b20e8fe3e68ece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 100
 --- !u!1001 &2027164026
 PrefabInstance:
   m_ObjectHideFlags: 0
