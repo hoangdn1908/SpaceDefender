@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private WaypointPath path;
+    [SerializeField] private EnemyController enemyController;
+    private WaypointPath path;
     private float speed;
     private float rotationSpeed;
     private int currentWaypointIndex;
@@ -12,6 +13,7 @@ public class EnemyMovement : MonoBehaviour
         MoveToWaypoint();
     }
 
+    #region Setter
     public void SetSpeed(float speed) 
     {
         this.speed = speed;
@@ -22,8 +24,20 @@ public class EnemyMovement : MonoBehaviour
         this.rotationSpeed = rotationSpeed;
     }
 
-    private void MoveToWaypoint() 
+    public void SetPath(WaypointPath waypointPath) 
     {
+        this.path = waypointPath;
+    }
+
+    public void ResetCurrentWayPointIndex() 
+    {
+        currentWaypointIndex = 0;
+    }
+    #endregion
+
+    private void MoveToWaypoint()
+    {
+        if (this.path == null) return;
         Transform waypointTarget = path.GetWaypoint(currentWaypointIndex);
         if (waypointTarget == null) return;
         Vector2 direction = waypointTarget.position - transform.position;
@@ -46,7 +60,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void ReachGoal() 
     {
-        Debug.Log("Done");
+        enemyController.enemyLive.ReturnToPool();
     }
 
     private void FlipByDirection(Vector2 direction) 

@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    [SerializeField] private EnemyController enemyController;
     private int currentHealth;
 
     public void SetHealth(int health) 
@@ -14,7 +15,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (!IsAlive())
         {
-            gameObject.SetActive(false);
+            enemyController.enemyLive.ReturnToPool();
             return;
         }
         currentHealth -= damage;

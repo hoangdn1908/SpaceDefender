@@ -1,17 +1,18 @@
 using UnityEngine;
 
-[RequireComponent(typeof(EnemyHealth), typeof(EnemyMovement), typeof(EnemyVisual))] 
+[RequireComponent(typeof(EnemyHealth), typeof(EnemyMovement))]
+[RequireComponent(typeof(EnemyLive), typeof(EnemyVisual))]
 public class EnemyController : MonoBehaviour
 {
-    public EnemyData EnemyData;
+    private EnemyData enemyData;
     private EnemyHealth enemyHealth;
-    private EnemyMovement enemyMovement;
+    public EnemyMovement enemyMovement {  get; private set; }
     private EnemyVisual enemyVisual;
+    public EnemyLive enemyLive {  get; private set; }
 
     private void Awake()
     {
         InitializeComponent();
-        SetValues();
     }
 
     private void InitializeComponent() 
@@ -19,14 +20,19 @@ public class EnemyController : MonoBehaviour
         enemyHealth = GetComponent<EnemyHealth>();
         enemyMovement = GetComponent<EnemyMovement>();
         enemyVisual = GetComponent<EnemyVisual>();
+        enemyLive = GetComponent<EnemyLive>();
     }
 
-    public void SetValues() 
+    public void PrepareBeforeSpawn(EnemyData data, ObjectPool enemyPool, WaypointPath waypointPath) 
     {
-        enemyHealth.SetHealth(EnemyData.maxHealth);
-        enemyMovement.SetSpeed(EnemyData.speed);
-        enemyMovement.SetRotationSpeed(EnemyData.rotationSpeed);
-        enemyVisual.SetColliderRadius(EnemyData.colliderRadius);
-        enemyVisual.SetSprite(EnemyData.sprites);
+        enemyData = data;
+        enemyHealth.SetHealth(enemyData.maxHealth);
+        enemyMovement.ResetCurrentWayPointIndex();
+        enemyMovement.SetSpeed(enemyData.speed);
+        enemyMovement.SetRotationSpeed(enemyData.rotationSpeed);
+        enemyMovement.SetPath(waypointPath);
+        enemyVisual.SetColliderRadius(enemyData.colliderRadius);
+        enemyVisual.SetSprite(enemyData.sprites);
+        enemyLive.SetEnemyPool(enemyPool);
     }
 }

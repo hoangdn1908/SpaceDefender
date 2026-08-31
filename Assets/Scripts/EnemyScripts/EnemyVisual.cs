@@ -11,7 +11,6 @@ public class EnemyVisual : MonoBehaviour
         if (sprites.Length == 0) return;
         int index = Random.Range(0, sprites.Length);
         this.spriteRenderer.sprite = sprites[index];
-        Debug.Log(index);
     }
 
     public void SetColliderRadius(float radius) 
