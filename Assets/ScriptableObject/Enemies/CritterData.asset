@@ -15,7 +15,7 @@ MonoBehaviour:
   speed: 3
   rotationSpeed: 720
   maxHealth: 100
-  collierRaius: 0.25
+  colliderRadius: 0.25
   sprites:
   - {fileID: 2919713412877361821, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}
   - {fileID: -7184156155858909469, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}

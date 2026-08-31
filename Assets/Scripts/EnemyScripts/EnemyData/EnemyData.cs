@@ -8,4 +8,12 @@ public class EnemyData : ScriptableObject
     public int maxHealth;
     public float colliderRadius;
     public Sprite[] sprites;
+    public EnemyType enemyType;
+}
+
+public enum EnemyType 
+{
+    Small,
+    Big,
+    Boss,
 }
