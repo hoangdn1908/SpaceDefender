@@ -42,6 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2012526747
+    locked: 0
   - name: 'Path '
     uniqueID: 3514068173
     locked: 0
@@ -50,6 +53,9 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 2531836335
+    locked: 0
+  - name: Tower
+    uniqueID: 2042655837
     locked: 0
   m_RenderingLayers:
   - Default
