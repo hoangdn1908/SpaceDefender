@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 837057912224016095}
   - component: {fileID: 8413716924693557945}
   - component: {fileID: 8964417357463793499}
+  - component: {fileID: 1951897096799010190}
   m_Layer: 0
-  m_Name: NormalTower
+  m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,6 +173,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerController
   towerData: {fileID: 11400000, guid: 9a7a5576a2433c149b445aa82fbed7e9, type: 2}
+--- !u!114 &1951897096799010190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593227426329792643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684657acc3d7d3d469f187c89bf249a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TowerVisual
+  spriteRenderer: {fileID: 1116971500699669202}
 --- !u!1001 &7052090369022785856
 PrefabInstance:
   m_ObjectHideFlags: 0
