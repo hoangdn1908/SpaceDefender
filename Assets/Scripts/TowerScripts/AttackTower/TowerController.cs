@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(TowerDetect), typeof(TowerShoot),  typeof(TowerVisual))]
 public class TowerController : MonoBehaviour
 {
-    public TowerData towerData;
+    private TowerData towerData;
     public TowerDetect towerDetect {  get; private set; }
     public TowerShoot towerShoot { get; private set; }
     public TowerVisual towerVisual { get; private set; }
@@ -11,7 +11,6 @@ public class TowerController : MonoBehaviour
     private void Awake()
     {
         InitializeComponent();
-        SetTowerData();
     }
 
     private void Update()
@@ -26,8 +25,10 @@ public class TowerController : MonoBehaviour
         towerVisual = GetComponent<TowerVisual>();
     }
 
-    private void SetTowerData() 
+    public void SetTowerData(TowerData data) 
     {
+        if (data == null) return;
+        this.towerData = data;
         towerShoot.SetTowerData(towerData);
         towerDetect.Initialize(towerData);
         towerVisual.SetVisual(towerData.towerImage);
