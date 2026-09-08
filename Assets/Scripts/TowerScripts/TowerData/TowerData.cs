@@ -13,4 +13,5 @@ public class TowerData : ScriptableObject
     public float timeRate;
     public float detectRange;
     public Sprite towerImage;
+    public int cost;
 }

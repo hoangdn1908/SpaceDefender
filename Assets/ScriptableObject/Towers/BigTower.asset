@@ -19,3 +19,4 @@ MonoBehaviour:
   timeRate: 0.5
   detectRange: 5
   towerImage: {fileID: 992097765886028389, guid: 8b4f1e3713982e44d96861c70753b62f, type: 3}
+  cost: 30
