@@ -7,13 +7,14 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private Transform spawnPos;
     [SerializeField] private WaypointPath waypointPath;
 
-    public void SpawnEnemy(EnemyData enemyData) 
+    public EnemyController SpawnEnemy(EnemyData enemyData) 
     {
         ObjectPool pool = GetPool(enemyData.enemyType);
         GameObject enemyObj = pool.GetFromPool();
         enemyObj.transform.position = spawnPos.position;
         EnemyController enemy = enemyObj.GetComponent<EnemyController>();
         enemy.PrepareBeforeSpawn(enemyData, pool, waypointPath);
+        return enemy;
     }
 
     private ObjectPool GetPool(EnemyType enemyType) 

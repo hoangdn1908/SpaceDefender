@@ -15,6 +15,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (!IsAlive())
         {
+            GameEvents.OnEnemyFinished(this.enemyController);
             enemyController.enemyLive.ReturnToPool();
             return;
         }

@@ -1,11 +1,11 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class WaveController : MonoBehaviour
 {
     [SerializeField] private GameModeData gameModeData;
     [SerializeField] private EnemySpawner enemySpawner;
-    [SerializeField] private float delayBetweenWaves;
     private int currentWaveIndex;
 
     private void Start()
@@ -18,8 +18,8 @@ public class WaveController : MonoBehaviour
         while (currentWaveIndex < gameModeData.waves.Count) 
         {
             yield return StartCoroutine(SpawnWave(gameModeData.waves[currentWaveIndex]));
+            yield return new WaitUntil(() => !EnemyManager.instance.HasEnemies());
             currentWaveIndex++;
-            yield return new WaitForSeconds(delayBetweenWaves);
         }
     }
 
@@ -28,11 +28,17 @@ public class WaveController : MonoBehaviour
         foreach (SpawnGroup group in wave.spawnGroups) 
         {
             yield return new WaitForSeconds(group.delayBeforeGroup);
-            for (int i = 0; i < group.count; i++) 
-            {
-                enemySpawner.SpawnEnemy(group.enemyData);
-                yield return new WaitForSeconds(group.delayBetweenSpawns);
-            }
+            yield return StartCoroutine(SpawnGroup(group));
+        }
+    }
+
+    private IEnumerator SpawnGroup(SpawnGroup group) 
+    {
+        for (int i = 0; i < group.count; i++)
+        {
+            EnemyController enemy = enemySpawner.SpawnEnemy(group.enemyData);
+            GameEvents.OnEnemySpawned(enemy);
+            yield return new WaitForSeconds(group.delayBetweenSpawns);
         }
     }
 }

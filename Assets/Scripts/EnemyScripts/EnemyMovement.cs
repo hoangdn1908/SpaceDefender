@@ -60,6 +60,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void ReachGoal() 
     {
+        GameEvents.RaiseEnemyFinished(this.enemyController);
         enemyController.enemyLive.ReturnToPool();
     }
 
