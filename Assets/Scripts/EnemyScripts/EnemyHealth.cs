@@ -13,14 +13,13 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage) 
     {
+        currentHealth -= damage;
+        currentHealth = Mathf.Max(currentHealth, 0);
         if (!IsAlive())
         {
             GameEvents.OnEnemyFinished(this.enemyController);
             enemyController.enemyLive.ReturnToPool();
-            return;
         }
-        currentHealth -= damage;
-        currentHealth = Mathf.Max(currentHealth, 0);
     }
 
     private bool IsAlive() 
