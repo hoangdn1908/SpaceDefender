@@ -2,17 +2,19 @@ using System;
 
 public static class GameEvents 
 {
-    #region Choose tower
+    // Towers
     public static Action<PlatformController> OnPlatformSelected;
     public static Action<TowerData> OnTowerSelected;
     public static Action<PlatformController, TowerData> OnTowerBuilt;
-    #endregion
 
-    #region Register enemies
+    // Enemies
     public static Action<EnemyController> OnEnemySpawned;
     public static Action<EnemyController> OnEnemyFinished;
-    #endregion
+    
 
+    // Player
+    public static Action<int> OnPlayerHealthChanged;
+    
 
     #region Tower
     public static void RaisePlatformSelected(PlatformController platform) 
@@ -40,6 +42,13 @@ public static class GameEvents
     public static void RaiseEnemyFinished(EnemyController enemyController) 
     {
         OnEnemyFinished?.Invoke(enemyController);
+    }
+    #endregion
+
+    #region Player
+    public static void RaisePlayerHealthChanged(int currentHealth) 
+    {
+        OnPlayerHealthChanged?.Invoke(currentHealth);
     }
     #endregion
 }

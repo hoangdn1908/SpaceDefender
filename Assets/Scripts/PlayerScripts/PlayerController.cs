@@ -8,14 +8,14 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        currentHealth = maxHealth;    
+        SetCurrentHealth();    
     }
 
     public void TakeDamage(int damage) 
     {
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
-        Debug.Log(currentHealth);
+        GameEvents.RaisePlayerHealthChanged(currentHealth);
         if (!IsAlive()) 
         {
             gameObject.SetActive(false);
@@ -26,4 +26,11 @@ public class PlayerController : MonoBehaviour
     {
         return currentHealth > 0;
     }
+
+    private void SetCurrentHealth() 
+    {
+        currentHealth = maxHealth;
+        GameEvents.RaisePlayerHealthChanged(currentHealth);
+    }
+
 }
