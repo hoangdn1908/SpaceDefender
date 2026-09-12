@@ -27,6 +27,7 @@ public class TowerBuildManager : MonoBehaviour
     {
         if (currentPlatform == null) return;
         if (currentPlatform.IsOccupied) return;
+        if (!PlayerWallet.instance.TryBuyTower(towerData.cost)) return;
         BuiltTower(currentPlatform, towerData);
         currentPlatform = null;
     }
