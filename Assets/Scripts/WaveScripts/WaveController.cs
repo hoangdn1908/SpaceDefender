@@ -36,7 +36,7 @@ public class WaveController : MonoBehaviour
         for (int i = 0; i < group.count; i++)
         {
             EnemyController enemy = enemySpawner.SpawnEnemy(group.enemyData);
-            GameEvents.OnEnemySpawned(enemy);
+            GameEvents.RaiseEnemySpawned(enemy);
             yield return new WaitForSeconds(group.delayBetweenSpawns);
         }
     }

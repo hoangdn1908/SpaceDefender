@@ -17,7 +17,7 @@ public class EnemyHealth : MonoBehaviour
         currentHealth = Mathf.Max(currentHealth, 0);
         if (!IsAlive())
         {
-            GameEvents.OnEnemyFinished(this.enemyController);
+            GameEvents.RaiseEnemyFinished(this.enemyController);
             enemyController.enemyLive.ReturnToPool();
         }
     }

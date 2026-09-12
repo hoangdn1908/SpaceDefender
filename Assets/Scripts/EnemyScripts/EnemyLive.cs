@@ -11,7 +11,6 @@ public class EnemyLive : MonoBehaviour
 
     public void ReturnToPool() 
     {
-
         enemyPool.ReturnToPool(gameObject);
     }
 }
