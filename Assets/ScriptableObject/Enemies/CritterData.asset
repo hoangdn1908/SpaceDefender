@@ -16,9 +16,11 @@ MonoBehaviour:
   rotationSpeed: 720
   maxHealth: 100
   colliderRadius: 0.25
+  damage: 2
   sprites:
   - {fileID: 2919713412877361821, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}
   - {fileID: -7184156155858909469, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}
   - {fileID: -3164834833566686031, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}
   - {fileID: -3605852713416581668, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}
   - {fileID: 5194186906036180672, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}
+  enemyType: 0

@@ -7,6 +7,7 @@ public class EnemyData : ScriptableObject
     public float rotationSpeed;
     public int maxHealth;
     public float colliderRadius;
+    public int damage;
     public Sprite[] sprites;
     public EnemyType enemyType;
 }

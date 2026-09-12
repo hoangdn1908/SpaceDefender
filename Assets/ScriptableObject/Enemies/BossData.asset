@@ -16,5 +16,6 @@ MonoBehaviour:
   rotationSpeed: 720
   maxHealth: 200
   colliderRadius: 1.5
+  damage: 4
   sprites: []
   enemyType: 2
