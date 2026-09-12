@@ -17,5 +17,6 @@ MonoBehaviour:
   maxHealth: 200
   colliderRadius: 1.5
   damage: 4
+  coinEarn: 30
   sprites: []
   enemyType: 2

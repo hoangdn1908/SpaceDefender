@@ -18,6 +18,7 @@ public class EnemyHealth : MonoBehaviour
         if (!IsAlive())
         {
             GameEvents.RaiseEnemyFinished(this.enemyController);
+            GameEvents.RaiseEnemyDied(enemyController.enemyData.coinEarn);
             enemyController.enemyLive.ReturnToPool();
         }
     }

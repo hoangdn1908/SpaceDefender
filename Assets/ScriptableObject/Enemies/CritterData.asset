@@ -17,6 +17,7 @@ MonoBehaviour:
   maxHealth: 100
   colliderRadius: 0.25
   damage: 2
+  coinEarn: 10
   sprites:
   - {fileID: 2919713412877361821, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}
   - {fileID: -7184156155858909469, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}

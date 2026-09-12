@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(EnemyLive), typeof(EnemyVisual))]
 public class EnemyController : MonoBehaviour
 {
-    private EnemyData enemyData;
+    public EnemyData enemyData {  get; private set; }
     private EnemyHealth enemyHealth;
     public EnemyMovement enemyMovement {  get; private set; }
     private EnemyVisual enemyVisual;
