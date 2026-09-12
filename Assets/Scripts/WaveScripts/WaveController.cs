@@ -16,6 +16,8 @@ public class WaveController : MonoBehaviour
     {
         while (currentWaveIndex < gameModeData.waves.Count) 
         {
+            GameEvents.RaiseWaveChanged(currentWaveIndex, gameModeData.waves.Count);
+            yield return new WaitForSeconds(gameModeData.delayBetweenWaves);
             yield return StartCoroutine(SpawnWave(gameModeData.waves[currentWaveIndex]));
             yield return new WaitUntil(() => !EnemyManager.instance.HasEnemies());
             currentWaveIndex++;

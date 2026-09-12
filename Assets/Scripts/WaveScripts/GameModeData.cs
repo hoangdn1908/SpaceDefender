@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class GameModeData : ScriptableObject
 {
     public List<WaveData> waves;
+    public float delayBetweenWaves;
 }
 
 [Serializable]

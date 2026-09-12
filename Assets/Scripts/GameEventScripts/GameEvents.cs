@@ -10,11 +10,17 @@ public static class GameEvents
     // Enemies
     public static Action<EnemyController> OnEnemySpawned;
     public static Action<EnemyController> OnEnemyFinished;
+    public static Action<int> OnEnemyDied;
     
 
     // Player
     public static Action<int> OnPlayerHealthChanged;
-    
+
+    // Wallet
+    public static Action<int> OnCoinChanged;
+
+    // Wave
+    public static Action<int, int> OnWaveChanged;
 
     #region Tower
     public static void RaisePlatformSelected(PlatformController platform) 
@@ -43,12 +49,31 @@ public static class GameEvents
     {
         OnEnemyFinished?.Invoke(enemyController);
     }
+
+    public static void RaiseEnemyDied(int coin) 
+    {
+        OnEnemyDied?.Invoke(coin);
+    }
     #endregion
 
     #region Player
     public static void RaisePlayerHealthChanged(int currentHealth) 
     {
         OnPlayerHealthChanged?.Invoke(currentHealth);
+    }
+    #endregion
+
+    #region Coin
+    public static void RaiseCoinChanged(int coin) 
+    {
+        OnCoinChanged?.Invoke(coin);
+    }
+    #endregion
+
+    #region Wave
+    public static void RaiseWaveChanged(int currentWave, int maxWave) 
+    {
+        OnWaveChanged?.Invoke(currentWave, maxWave);
     }
     #endregion
 }
