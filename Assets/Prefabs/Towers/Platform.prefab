@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 828793154504052791}
   - component: {fileID: 345680808362756486}
   - component: {fileID: 1485716563965662491}
+  - component: {fileID: -7218530468634723377}
   m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
@@ -142,3 +143,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformController
   buildPoint: {fileID: 8141745991465703028}
+--- !u!114 &-7218530468634723377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3035752186456033123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd509827914e944cbe8cd5efd50d15e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformLive
+  platform: {fileID: 1485716563965662491}
