@@ -2745,7 +2745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33820fcf22cdf0d4ba6b5dd4f032cee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerWallet
-  startCoin: 200
+  startCoin: 300
 --- !u!4 &870884812
 Transform:
   m_ObjectHideFlags: 0
