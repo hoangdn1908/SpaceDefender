@@ -4,14 +4,24 @@ public class PlayerHealth : MonoBehaviour
 {
     private int currentHealth;
 
-    public void TakeDamage(int damage)
+    private void OnEnable()
+    {
+        GameEvents.OnEnemyReachGoal += TakeDamage;
+    }
+
+    private void OnDisable()
+    {
+        GameEvents.OnEnemyReachGoal -= TakeDamage;
+    }
+
+    private void TakeDamage(int damage)
     {
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
         GameEvents.RaisePlayerHealthChanged(currentHealth);
         if (!IsAlive())
         {
-            gameObject.SetActive(false);
+            GameEvents.RaiseGameLose();
         }
     }
 
