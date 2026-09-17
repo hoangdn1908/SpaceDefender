@@ -14,13 +14,18 @@ public class WaveController : MonoBehaviour
 
     private IEnumerator RunWaves() 
     {
-        while (currentWaveIndex < gameModeData.waves.Count) 
+        while (true) 
         {
             GameEvents.RaiseWaveChanged(currentWaveIndex, gameModeData.waves.Count);
             yield return new WaitForSeconds(gameModeData.delayBetweenWaves);
             yield return StartCoroutine(SpawnWave(gameModeData.waves[currentWaveIndex]));
             yield return new WaitUntil(() => !EnemyManager.instance.HasEnemies());
             currentWaveIndex++;
+            if (currentWaveIndex >= gameModeData.waves.Count && !EnemyManager.instance.HasEnemies()) 
+            {
+                GameEvents.RaiseGameWin();
+                break;
+            }
         }
     }
 
