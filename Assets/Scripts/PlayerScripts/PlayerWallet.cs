@@ -3,17 +3,11 @@ using UnityEngine;
 public class PlayerWallet : MonoBehaviour
 {
     public static PlayerWallet instance;
-    [SerializeField] private int startCoin;
     private int currentCoin;
 
     private void Awake()
     {
         instance = this;
-    }
-
-    private void Start()
-    {
-        SetCurrentCoin();
     }
 
     private void OnEnable()
@@ -26,7 +20,7 @@ public class PlayerWallet : MonoBehaviour
         GameEvents.OnEnemyDied -= AddCoin;
     }
 
-    private void SetCurrentCoin() 
+    public void SetCurrentCoin(int startCoin) 
     {
         currentCoin = startCoin;
         ListenCoinChanged(currentCoin);

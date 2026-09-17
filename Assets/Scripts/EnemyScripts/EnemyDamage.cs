@@ -15,7 +15,7 @@ public class EnemyDamage : MonoBehaviour
         {
             PlayerController playerController = collision.GetComponent<PlayerController>();
             if (playerController == null) return;
-            playerController.TakeDamage(damage);
+            playerController.playerHealth.TakeDamage(damage);
         }
     }
 }

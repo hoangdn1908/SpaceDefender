@@ -2,34 +2,18 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private int maxHealth;
-    private int currentHealth;
+    public PlayerHealth playerHealth;
+    public PlayerWallet playerWallet;
+    public PlayerData playerData;
 
-    private void Awake()
+    private void Start()
     {
-        SetCurrentHealth();    
+        SetData();
     }
 
-    public void TakeDamage(int damage) 
+    public void SetData() 
     {
-        currentHealth -= damage;
-        currentHealth = Mathf.Max(currentHealth, 0);
-        GameEvents.RaisePlayerHealthChanged(currentHealth);
-        if (!IsAlive()) 
-        {
-            gameObject.SetActive(false);
-        }
+        playerHealth.SetCurrentHealth(playerData.maxHealth);
+        playerWallet.SetCurrentCoin(playerData.startCoin);
     }
-
-    private bool IsAlive() 
-    {
-        return currentHealth > 0;
-    }
-
-    private void SetCurrentHealth() 
-    {
-        currentHealth = maxHealth;
-        GameEvents.RaisePlayerHealthChanged(currentHealth);
-    }
-
 }
