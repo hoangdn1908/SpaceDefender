@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb035e27ecbeaf54aae82d1fc6b3984c, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: Assembly-CSharp::PlayerData
-  maxHealth: 100
-  startCoin: 1000
+  maxHealth: 10
+  startCoin: 500
