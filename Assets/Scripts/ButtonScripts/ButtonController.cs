@@ -14,8 +14,13 @@ public class ButtonController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void LoadScene(string sceneName) 
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
     public void QuitGame() 
     {
-    
+        Application.Quit();
     }
 }
