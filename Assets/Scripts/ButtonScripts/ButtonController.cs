@@ -19,6 +19,16 @@ public class ButtonController : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void LoadNextScene() 
+    {
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int totalScene = SceneManager.sceneCountInBuildSettings;
+        if (nextSceneIndex < totalScene - 1)
+            SceneManager.LoadScene(nextSceneIndex + 1);
+        else
+            Debug.Log("Het scene roi");
+    }
+
     public void QuitGame() 
     {
         Application.Quit();
