@@ -29,6 +29,11 @@ public class ButtonController : MonoBehaviour
             Debug.Log("Het scene roi");
     }
 
+    public void SetGameSpeed(float time) 
+    {
+        Time.timeScale = time;
+    }
+
     public void QuitGame() 
     {
         Application.Quit();
