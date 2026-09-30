@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 345680808362756486}
   - component: {fileID: 1485716563965662491}
   - component: {fileID: -7218530468634723377}
+  - component: {fileID: 2643526972687055585}
   m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
@@ -156,3 +157,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformLive
   platform: {fileID: 1485716563965662491}
+--- !u!114 &2643526972687055585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3035752186456033123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de837a7fcc55f504b9cece87a02da40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Floating
+  floatHeight: 0.2
+  floatSpeed: 0.3
+  driftAmount: 0.15
+  driftSpeed: 0.3
+  rotationAmount: 1
+  rotationSpeed: 0.3
