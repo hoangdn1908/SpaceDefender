@@ -4566,6 +4566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerBuildManager
   towerSpawner: {fileID: 1039922677}
+  towerPlacedSound: {fileID: 8300000, guid: b4c03b4ce2e77d14e80117210f45f5b4, type: 3}
 --- !u!1001 &1264773133
 PrefabInstance:
   m_ObjectHideFlags: 0

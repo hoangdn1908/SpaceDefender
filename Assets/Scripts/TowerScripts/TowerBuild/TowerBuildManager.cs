@@ -3,6 +3,7 @@ using UnityEngine;
 public class TowerBuildManager : MonoBehaviour
 {
     [SerializeField] private TowerSpawner towerSpawner;
+    [SerializeField] private AudioClip towerPlacedSound;
     private PlatformController currentPlatform;
 
     private void OnEnable()
@@ -29,6 +30,7 @@ public class TowerBuildManager : MonoBehaviour
         if (currentPlatform.IsOccupied) return;
         if (!PlayerWallet.instance.TryBuyTower(towerData.cost)) return;
         BuiltTower(currentPlatform, towerData);
+        AudioManager.instance.PlaySfx(towerPlacedSound);
         currentPlatform = null;
     }
     #endregion

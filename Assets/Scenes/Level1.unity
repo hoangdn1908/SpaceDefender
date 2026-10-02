@@ -5622,6 +5622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerBuildManager
   towerSpawner: {fileID: 1039922677}
+  towerPlacedSound: {fileID: 8300000, guid: b4c03b4ce2e77d14e80117210f45f5b4, type: 3}
 --- !u!4 &1348574673 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8141745991465703028, guid: 013696b193448f1469cd0282703b4d27, type: 3}
