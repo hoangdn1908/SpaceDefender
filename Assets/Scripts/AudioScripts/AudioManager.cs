@@ -22,12 +22,10 @@ public class AudioManager : MonoBehaviour
         return true;
     }
 
-    private void PlaySfx(AudioClip audioClip) 
+    public void PlaySfx(AudioClip audioClip) 
     {
         if (audioClip == null) return;
         sfxSource.PlayOneShot(audioClip);
     }
-
-    public void PlayTowerSfx(AudioClip audioClip) => PlaySfx(audioClip);
 
 }

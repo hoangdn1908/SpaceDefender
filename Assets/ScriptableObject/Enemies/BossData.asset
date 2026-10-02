@@ -20,3 +20,4 @@ MonoBehaviour:
   coinEarn: 30
   sprites: []
   enemyType: 2
+  spawnSound: {fileID: 8300000, guid: 85b3d549473311343931c87da6017834, type: 3}

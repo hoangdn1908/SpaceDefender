@@ -34,5 +34,6 @@ public class EnemyController : MonoBehaviour
         enemyVisual.SetColliderRadius(enemyData.colliderRadius);
         enemyVisual.SetSprite(enemyData.sprites);
         enemyLive.SetEnemyPool(enemyPool);
+        AudioManager.instance.PlaySfx(enemyData.spawnSound);
     }
 }

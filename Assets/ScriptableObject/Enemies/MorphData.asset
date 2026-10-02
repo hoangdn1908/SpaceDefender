@@ -25,3 +25,4 @@ MonoBehaviour:
   - {fileID: 118224587, guid: 4bc1d98c5dc86cf41844a8ed3fe6b8a8, type: 3}
   - {fileID: 1003771818, guid: 4bc1d98c5dc86cf41844a8ed3fe6b8a8, type: 3}
   enemyType: 1
+  spawnSound: {fileID: 8300000, guid: b14b1664101d6824f94d1b3b46b09f3e, type: 3}

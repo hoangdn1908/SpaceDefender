@@ -11,6 +11,8 @@ public class EnemyData : ScriptableObject
     public int coinEarn;
     public Sprite[] sprites;
     public EnemyType enemyType;
+    [Header("Sfx")]
+    public AudioClip spawnSound;
 }
 
 public enum EnemyType 
