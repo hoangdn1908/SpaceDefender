@@ -7,7 +7,7 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        if (TrySetSingleton()) return;
+        if (!TrySetSingleton()) return;
     }
 
     private bool TrySetSingleton() 
