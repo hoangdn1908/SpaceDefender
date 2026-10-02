@@ -20,3 +20,4 @@ MonoBehaviour:
   detectRange: 5
   towerImage: {fileID: -1342480258031889153, guid: 8b4f1e3713982e44d96861c70753b62f, type: 3}
   cost: 20
+  fireSound: {fileID: 8300000, guid: f5b874029bcb0714cbaab526ef05eb0e, type: 3}

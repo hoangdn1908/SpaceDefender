@@ -17,6 +17,7 @@ public class TowerShoot : MonoBehaviour
         if (target == null) return false;
         if (fireTimer < towerData.timeRate) return false;
         Shoot(target);
+        AudioManager.instance.PlayTowerSfx(towerData.fireSound);
         fireTimer = 0;
         return true;
     }

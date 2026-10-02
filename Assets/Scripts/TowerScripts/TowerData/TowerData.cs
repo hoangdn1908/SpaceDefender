@@ -14,4 +14,6 @@ public class TowerData : ScriptableObject
     public float detectRange;
     public Sprite towerImage;
     public int cost;
+    [Header("Sfx")]
+    public AudioClip fireSound;
 }
