@@ -1044,6 +1044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 284240825}
   - component: {fileID: 284240826}
+  - component: {fileID: 284240827}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1078,6 +1079,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cfbd1ef76fb8284ab0b603815d23d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  gamePlaySfx: {fileID: 284240827}
+--- !u!114 &284240827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284240824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e18cfb20d93fdb409bc38b6ab5b23f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GamePlaySfx
+  pauseSfx: {fileID: 8300000, guid: a194f4b88c61a6141a57fb7a16650b1d, type: 3}
+  winSfx: {fileID: 8300000, guid: 03d34a6ab7b1b9c46ae800f6796f0e96, type: 3}
+  loseSfx: {fileID: 8300000, guid: 6623eb90109617949a3c83019d46898f, type: 3}
 --- !u!4 &288829040 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8141745991465703028, guid: 013696b193448f1469cd0282703b4d27, type: 3}

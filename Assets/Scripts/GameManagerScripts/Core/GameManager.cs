@@ -50,7 +50,6 @@ public class GameManager : MonoBehaviour
             return false;
         }
         instance = this;
-        DontDestroyOnLoad(gameObject);
         return true;
     }
 
