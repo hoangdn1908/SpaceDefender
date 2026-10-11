@@ -9,7 +9,7 @@ public class EnemyManager : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        if (!TrySetSingleton()) return;
     }
 
     private void OnEnable()
@@ -22,6 +22,17 @@ public class EnemyManager : MonoBehaviour
     {
         GameEvents.OnEnemySpawned -= HandleRegisterEnemy; 
         GameEvents.OnEnemyFinished -= HandleRemoveEnemy;
+    }
+
+    private bool TrySetSingleton()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(instance);
+            return false;
+        }
+        instance = this;
+        return true;
     }
 
     private void HandleRegisterEnemy(EnemyController enemyController) 

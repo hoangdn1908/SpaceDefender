@@ -7,7 +7,7 @@ public class PlayerWallet : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        if (!TrySetSingleton()) return;
     }
 
     private void OnEnable()
@@ -18,6 +18,17 @@ public class PlayerWallet : MonoBehaviour
     private void OnDisable()
     {
         GameEvents.OnEnemyDied -= AddCoin;
+    }
+
+    private bool TrySetSingleton()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(instance);
+            return false;
+        }
+        instance = this;
+        return true;
     }
 
     public void SetCurrentCoin(int startCoin) 

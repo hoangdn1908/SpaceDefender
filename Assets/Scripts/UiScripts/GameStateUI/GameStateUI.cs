@@ -9,7 +9,18 @@ public class GameStateUI : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;    
+        if (!TrySetSingleton()) return;
+    }
+
+    private bool TrySetSingleton()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(instance);
+            return false;
+        }
+        instance = this;
+        return true;
     }
 
     public void ShowPauseUI() => pauseUI.SetActive(true);
