@@ -3,6 +3,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    [SerializeField] private GamePlaySfx gamePlaySfx;
     private GameStateMachine gameStateMachine;
     private PlayingState playingState;
     private PauseState pauseState;
@@ -11,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        if (!TrySetSingleton()) return;
         InitializeGameState();
     }
 
@@ -35,10 +36,22 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) 
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             ChangeToPauseState();
         }
+    }
+
+    private bool TrySetSingleton()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(instance);
+            return false;
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+        return true;
     }
 
     private void InitializeGameState() 
@@ -59,16 +72,19 @@ public class GameManager : MonoBehaviour
     private void ChangeToPauseState() 
     {
         gameStateMachine.ChangeState(pauseState);
+        gamePlaySfx.PlayPauseSFX();
     }
 
     private void ChangeToWinState() 
     {
         gameStateMachine.ChangeState(winState);
+        gamePlaySfx.PlayWinSFX();
     }
 
     private void ChangeToLoseState() 
     {
         gameStateMachine.ChangeState(loseState);
+        gamePlaySfx.PlayLoseSFX();
     }
 
     #endregion

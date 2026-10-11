@@ -8,11 +8,13 @@ public class UIButtonSFX : MonoBehaviour, IPointerEnterHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (hoverSFX == null) return;
         AudioManager.instance.PlaySfx(hoverSFX);
     }
 
     public void OnClick()
     {
+        if (clickSFX == null) return;
         AudioManager.instance.PlaySfx(clickSFX);
     }
 }
