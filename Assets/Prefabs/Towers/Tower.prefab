@@ -252,6 +252,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7682469730615301426, guid: f622c16c3f20d8d4d887f88779f9e7d6, type: 3}
+      propertyPath: poolSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 9085748882866245032, guid: f622c16c3f20d8d4d887f88779f9e7d6, type: 3}
       propertyPath: m_Name
       value: ProjectilePool

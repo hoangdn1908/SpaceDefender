@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b28ea7970b5a24eaab44109a78aac9, type: 3}
   m_Name: CritterData
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  speed: 3
+  speed: 3.5
   rotationSpeed: 720
-  maxHealth: 100
+  maxHealth: 75
   colliderRadius: 0.25
-  damage: 2
+  damage: 1
   coinEarn: 10
   sprites:
   - {fileID: 2919713412877361821, guid: c0f3801b5c956fe4898c2f7da8392ebd, type: 3}

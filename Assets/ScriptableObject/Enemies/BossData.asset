@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b28ea7970b5a24eaab44109a78aac9, type: 3}
   m_Name: BossData
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  speed: 3
+  speed: 1.5
   rotationSpeed: 720
-  maxHealth: 200
+  maxHealth: 1000
   colliderRadius: 1.5
-  damage: 4
-  coinEarn: 30
+  damage: 3
+  coinEarn: 40
   sprites: []
   enemyType: 2
   spawnSound: {fileID: 8300000, guid: 85b3d549473311343931c87da6017834, type: 3}

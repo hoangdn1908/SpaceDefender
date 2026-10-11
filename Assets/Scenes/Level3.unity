@@ -4793,7 +4793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14646c7cee2f7bb48a4a2d7b8811fe6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaveController
-  gameModeData: {fileID: 11400000, guid: c35a703b8052b284a988b746903c5bf1, type: 2}
+  gameModeData: {fileID: 11400000, guid: a4f7776f796b49c498ce6cdcf620ef5a, type: 2}
   enemySpawner: {fileID: 1840163110}
 --- !u!4 &985019449
 Transform:
@@ -7852,7 +7852,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4359060473307518915, guid: 14615312067d8d24cb0e29121be6bf3b, type: 3}
       propertyPath: poolSize
-      value: 5
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6169130804978107678, guid: 14615312067d8d24cb0e29121be6bf3b, type: 3}
       propertyPath: m_Name
@@ -8493,6 +8493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossPool
       objectReference: {fileID: 0}
+    - target: {fileID: 3850336264652846372, guid: 8c3c22345f6709641847b4da78755084, type: 3}
+      propertyPath: poolSize
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7816819371023366043, guid: 8c3c22345f6709641847b4da78755084, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8812,7 +8816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   playerHealth: {fileID: 1523799151}
   playerWallet: {fileID: 870884811}
-  playerData: {fileID: 11400000, guid: 85aa09c19599cdd4bab063fa05091b1e, type: 2}
+  playerData: {fileID: 11400000, guid: a3fa09262dfb51c489e5c6772410d2b7, type: 2}
 --- !u!1 &1840163108
 GameObject:
   m_ObjectHideFlags: 0

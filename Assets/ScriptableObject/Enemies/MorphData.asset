@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b28ea7970b5a24eaab44109a78aac9, type: 3}
   m_Name: MorphData
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  speed: 3
+  speed: 2.5
   rotationSpeed: 720
-  maxHealth: 100
+  maxHealth: 150
   colliderRadius: 0.45
-  damage: 3
+  damage: 2
   coinEarn: 20
   sprites:
   - {fileID: -2699892945518073049, guid: 4bc1d98c5dc86cf41844a8ed3fe6b8a8, type: 3}

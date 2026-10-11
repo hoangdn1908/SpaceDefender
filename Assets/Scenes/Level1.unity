@@ -6242,7 +6242,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4359060473307518915, guid: 14615312067d8d24cb0e29121be6bf3b, type: 3}
       propertyPath: poolSize
-      value: 5
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6169130804978107678, guid: 14615312067d8d24cb0e29121be6bf3b, type: 3}
       propertyPath: m_Name
@@ -7678,6 +7678,10 @@ PrefabInstance:
     - target: {fileID: 1772959006502634189, guid: 8c3c22345f6709641847b4da78755084, type: 3}
       propertyPath: m_Name
       value: BossPool
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850336264652846372, guid: 8c3c22345f6709641847b4da78755084, type: 3}
+      propertyPath: poolSize
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7816819371023366043, guid: 8c3c22345f6709641847b4da78755084, type: 3}
       propertyPath: m_LocalPosition.x

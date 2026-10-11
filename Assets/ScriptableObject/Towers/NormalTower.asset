@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c6c6a9f131fd246a87196915c04ed2, type: 3}
   m_Name: NormalTower
   m_EditorClassIdentifier: Assembly-CSharp::TowerData
-  projectileSpeed: 20
-  projectileDamage: 10
-  scaleX: 1
-  scaleY: 1
-  timeRate: 0.2
-  detectRange: 5
+  projectileSpeed: 30
+  projectileDamage: 15
+  scaleX: 1.2
+  scaleY: 1.2
+  timeRate: 0.5
+  detectRange: 4.5
   towerImage: {fileID: 4213425470128639089, guid: 8b4f1e3713982e44d96861c70753b62f, type: 3}
-  cost: 10
+  cost: 50
   fireSound: {fileID: 8300000, guid: f5102a668edab2d4180425cc73a96a78, type: 3}
