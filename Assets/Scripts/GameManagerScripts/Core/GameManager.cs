@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     private PauseState pauseState;
     private WinState winState;
     private LoseState loseState;
+    private bool isPlaying;
 
     private void Awake()
     {
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && isPlaying)
         {
             ChangeToPauseState();
         }
@@ -66,24 +67,28 @@ public class GameManager : MonoBehaviour
     public void ChangeToPlayingState() 
     {
         gameStateMachine.ChangeState(playingState);
+        isPlaying = true;
     }
 
     private void ChangeToPauseState() 
     {
         gameStateMachine.ChangeState(pauseState);
         gamePlaySfx.PlayPauseSFX();
+        isPlaying = false;
     }
 
     private void ChangeToWinState() 
     {
         gameStateMachine.ChangeState(winState);
         gamePlaySfx.PlayWinSFX();
+        isPlaying = false;
     }
 
     private void ChangeToLoseState() 
     {
         gameStateMachine.ChangeState(loseState);
         gamePlaySfx.PlayLoseSFX();
+        isPlaying = false;
     }
 
     #endregion
