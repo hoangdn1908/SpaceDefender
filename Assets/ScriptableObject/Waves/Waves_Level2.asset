@@ -15,7 +15,12 @@ MonoBehaviour:
   waves:
   - spawnGroups:
     - enemyData: {fileID: 11400000, guid: a0a79b798d181594ea8189b482f0ee46, type: 2}
-      count: 4
+      count: 2
+      delayBeforeGroup: 0
+      delayBetweenSpawns: 0.5
+  - spawnGroups:
+    - enemyData: {fileID: 11400000, guid: a0a79b798d181594ea8189b482f0ee46, type: 2}
+      count: 3
       delayBeforeGroup: 0
       delayBetweenSpawns: 0.5
   - spawnGroups:
@@ -23,9 +28,13 @@ MonoBehaviour:
       count: 5
       delayBeforeGroup: 0
       delayBetweenSpawns: 0.5
+    - enemyData: {fileID: 11400000, guid: d18ae4fe4e0fd47429c4d1f5b5c66d49, type: 2}
+      count: 2
+      delayBeforeGroup: 2
+      delayBetweenSpawns: 1
   - spawnGroups:
     - enemyData: {fileID: 11400000, guid: a0a79b798d181594ea8189b482f0ee46, type: 2}
-      count: 6
+      count: 5
       delayBeforeGroup: 0
       delayBetweenSpawns: 0.5
     - enemyData: {fileID: 11400000, guid: d18ae4fe4e0fd47429c4d1f5b5c66d49, type: 2}
@@ -33,35 +42,26 @@ MonoBehaviour:
       delayBeforeGroup: 2
       delayBetweenSpawns: 1
   - spawnGroups:
-    - enemyData: {fileID: 11400000, guid: a0a79b798d181594ea8189b482f0ee46, type: 2}
-      count: 5
-      delayBeforeGroup: 0
-      delayBetweenSpawns: 0.5
     - enemyData: {fileID: 11400000, guid: d18ae4fe4e0fd47429c4d1f5b5c66d49, type: 2}
-      count: 5
-      delayBeforeGroup: 2
-      delayBetweenSpawns: 1
-  - spawnGroups:
-    - enemyData: {fileID: 11400000, guid: d18ae4fe4e0fd47429c4d1f5b5c66d49, type: 2}
-      count: 5
+      count: 2
       delayBeforeGroup: 0
       delayBetweenSpawns: 0.5
     - enemyData: {fileID: 11400000, guid: a0a79b798d181594ea8189b482f0ee46, type: 2}
-      count: 9
+      count: 7
       delayBeforeGroup: 1
       delayBetweenSpawns: 0.5
   - spawnGroups:
     - enemyData: {fileID: 11400000, guid: 507a766a4115f334ea63a2216ed089fd, type: 2}
-      count: 2
+      count: 1
       delayBeforeGroup: 0
       delayBetweenSpawns: 5
   - spawnGroups:
     - enemyData: {fileID: 11400000, guid: d18ae4fe4e0fd47429c4d1f5b5c66d49, type: 2}
-      count: 5
+      count: 4
       delayBeforeGroup: 0
       delayBetweenSpawns: 1
     - enemyData: {fileID: 11400000, guid: d18ae4fe4e0fd47429c4d1f5b5c66d49, type: 2}
-      count: 5
+      count: 3
       delayBeforeGroup: 1
       delayBetweenSpawns: 1
   - spawnGroups:
