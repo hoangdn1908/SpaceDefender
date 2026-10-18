@@ -90,6 +90,5 @@ public class GameManager : MonoBehaviour
         gamePlaySfx.PlayLoseSFX();
         isPlaying = false;
     }
-
     #endregion
 }
