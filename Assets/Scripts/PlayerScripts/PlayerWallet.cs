@@ -24,7 +24,7 @@ public class PlayerWallet : MonoBehaviour
     {
         if (instance != null && instance != this)
         {
-            Destroy(instance);
+            Destroy(gameObject);
             return false;
         }
         instance = this;
