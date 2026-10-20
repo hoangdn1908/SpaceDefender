@@ -13,7 +13,7 @@ The game focuses on a simple gameplay loop that can be extended with data. Playe
 
 I led the game's development, defined its concept, and made the final gameplay and system design decisions.
 
-The art and audio were created by external creators.[Asset Credits](https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSEZjczFGLTluVVB5WUtQaDE4MV9COHxBSTVJdTV0Vm5aa0NndDVITjZySGozM0JwRHhtX3oyRGtCLWE1NUE4NmlZRGZEQlZPVUNkTHBBTVlNNDRjVzlmeUlhRG5qRDJFNV9ZU0FvNjBJdUNGMGNJUmJYTkpfWTFsQUR4&q=https%3A%2F%2Fwww.frankslaboratory.co.uk%2Fdownloads%2F11%2F11_resources.zip&v=py_TyP0tQN8).
+The art and audio were created by external creators. [Asset Credits](https://www.youtube.com/watch?v=py_TyP0tQN8&t=31440s)
 
 ## Gameplay Screenshots
 
