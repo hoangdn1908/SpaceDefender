@@ -11,9 +11,9 @@ The game focuses on a simple gameplay loop that can be extended with data. Playe
 
 ## My Contributions
 
-I led the game's development, defined its concept, and made the final gameplay and system design decisions.
+Developed this solo personal project, designed the gameplay systems, and made the architectural and design pattern decisions.
 
-The art and audio were created by external creators. [Asset Credits](https://www.youtube.com/watch?v=py_TyP0tQN8&t=31440s)
+Third-party art and audio assets were used; see [Asset Credits](https://www.youtube.com/watch?v=py_TyP0tQN8&t=31440s).
 
 ## Gameplay Screenshots
 
