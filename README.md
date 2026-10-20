@@ -66,8 +66,6 @@ Enemies, towers, and projectiles use separate components for different tasks ins
 - `TowerController` works with `TowerDetect`, `TowerShoot`, and `TowerVisual` to find targets, control shooting, and update the tower's appearance using `TowerData`.
 - `ProjectileController` works with `ProjectileShoot`, `ProjectileDamage`, `ProjectileSize`, and `ProjectileLive` to control movement, damage, size, and lifetime.
 
-This structure keeps tasks such as movement, health, target detection, and object lifetime separate. It also makes the code easier to read and update when adding new enemy or tower types.
-
 **Problem and approach:** Putting every responsibility in one script would make it long, difficult to read, and harder to change. I split the behavior into smaller scripts with specific jobs and used controllers to coordinate them. This makes it easier to find the code for a feature and limits how much unrelated code I need to change when extending it.
 
 ### 3. Event-Driven Communication
@@ -101,8 +99,6 @@ flowchart LR
 - `PauseState`, `WinState`, and `LoseState` stop gameplay by setting `Time.timeScale = 0` and show the correct panel.
 - `GameManager` changes states when it receives `OnGameWin` or `OnGameLose`, or when the player presses `Escape` during gameplay.
 
-This system separates game state logic from the UI and helps prevent gameplay from continuing behind the pause, win, or lose screens.
-
 **Learning goal and approach:** I wanted to make the game's different modes easier to follow and maintain. I organized the behavior for entering and leaving Playing, Pause, Win, and Lose into separate states. This gives each mode a clear place in the code and makes it easier to understand what happens when the game changes state.
 
 ### 5. Object Pooling for Enemies and Projectiles
@@ -111,7 +107,7 @@ This system separates game state logic from the UI and helps prevent gameplay fr
 
 `EnemyLive` and `ProjectileLive` control when objects are returned. `EnemySpawner` selects the correct pool based on `EnemyType`.
 
-The pool can create more objects when the queue is empty. It also uses a `HashSet<GameObject>` to help prevent the same object from being returned more than once. This is useful for enemies and projectiles that are created and reused many times during a game.
+The pool can create more objects when the queue is empty. It also uses a `HashSet<GameObject>` to help prevent the same object from being returned more than once.
 
 **Problem and approach:** Repeated enemy waves and multiple firing towers require many enemies and projectiles to appear and disappear. To reduce the overhead of repeatedly creating and destroying them, I used pools that keep inactive objects ready for reuse. The goal was to reduce gameplay stuttering by reducing repeated Instantiate/Destroy calls.
 
