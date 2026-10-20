@@ -7,7 +7,7 @@ The game focuses on a simple gameplay loop that can be extended with data. Playe
 ## Game Links
 
 - **Play on itch.io:** [PLAY GAME](https://hoangdn1908.itch.io/space-defender)
-- **Gameplay Video:** `ADD GAMEPLAY VIDEO LINK HERE`
+- **Gameplay Video:** [Watch Gameplay Demo](Recordings/GamePlayDemo.mp4)
 
 ## Gameplay Screenshots
 
